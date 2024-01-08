@@ -1,5 +1,3 @@
-const $a = [2, 3, 2];
-const $b = [2, 3, 2];
 
 function compare_array(arra, arrb) {
     if (arra.length != arrb.length) return false;
@@ -24,7 +22,9 @@ function compare_array(arra, arrb) {
     }
     return true;
 }
-// console.log(compare_array($a, $b));
+const $a = [2, 3, 2];
+const $b = [2, 3, 2];
+console.log(compare_array($a, $b));
 
 function lis(arr) {
     var s = new Set();
